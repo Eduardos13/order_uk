@@ -1,3 +1,62 @@
-.header {
-    background-color: red;
+.header-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: -0.06em;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding: 20px 0;
+}
+
+.logo span {
+    background-color: #fc8a06;
+}
+
+.account-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.account,
+.basket {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    width: calc(100% / 2);
+    height: 75px;
+    /* padding-top: 16px;
+    padding-bottom: 16px; */
+}
+
+.account {
+    background-color: #e9e9e9;
+    padding-left: 30px;
+}
+
+.user-name {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fc8a06;
+}
+
+.basket {
+    background-color: #028643;
+    padding-left: 35px;
+}
+
+.basket-icon {
+    fill: #c0bfbf;
+}
+
+.user-prise {
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
 }
